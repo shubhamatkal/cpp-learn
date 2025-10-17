@@ -46,6 +46,8 @@ char getComputerChoice(){
             return 'p';
         case 3:
             return 's';
+        default:
+            return 0;
     }
     
 }
